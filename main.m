@@ -15,7 +15,7 @@ makePlayList(sr, gap_len, pre_filter, normalize, fileList, loop);
 
 %%
 post_filter = [];
-needPlotToFindHead = 0;
+needPlotToFindHead = 1;
 parsePlayList('./samples_allcommands/playall_samples_allcommands.wav', 0.2, sr, gap_len, post_filter, normalize, fileList, loop, needPlotToFindHead)
 
 

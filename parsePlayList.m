@@ -17,6 +17,7 @@ function parsePlayList(path_to_file, find_head_threshold, sr, gap_len, post_filt
     
     if needPlotToFindHead == 1
         plot(rec(1:rec_sr*10))
+        prompt = 'What is the find_head_threshold value? ';
         find_head_threshold = input(prompt);
 
     end
